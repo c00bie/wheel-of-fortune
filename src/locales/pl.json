@@ -1,0 +1,59 @@
+{
+  "charset": "AĄBCĆDEĘFGHIJKLŁMNŃOÓPQRSŚTUVWXYZŹŻ",
+  "vowels": "AĄEĘIYUÓO",
+  "ui": {
+    "wheel": "Koło",
+    "word": "Hasło",
+    "ok": "OK",
+    "cancel": "Anuluj",
+    "no-words": "Lista haseł jest pusta. Przejdź do ustawień i dodaj je, aby rozpocząć grę."
+  },
+  "game": {
+    "team": "Drużyna {n}",
+    "bankrupt": "Bankrut",
+    "category": "Kategoria: {category}"
+  },
+  "settings": {
+    "header": "Ustawienia",
+    "teams": "Drużyny",
+    "name": "Nazwa",
+    "words": "Hasła",
+    "word": "Hasło",
+    "category": "Kategoria",
+    "wheel_values": "Wartości na kole",
+    "value": "Wartość",
+    "is_bankrupt": "Bankrut",
+    "spin_time": "Czas obrotu koła (ms)",
+    "misc": "Pozostałe ustawienia",
+    "buy_vowels": "Kupuj samogłoski",
+    "vowel_price": "Cena samogłosek",
+    "bakrupt_per_round": "Bankrut dotczy tylko obecnej rundy",
+    "answer_reward": "Nagroda za odgadnięcie hasła",
+    "use_random_org": "Używaj random.org do losowania wartości na kole",
+    "save_load": "Zapisz/Wczytaj",
+    "save_game": "Zapisz stan gry",
+    "save_settings": "Zapisz ustawienia",
+    "load": "Wczytaj",
+    "reset": "Resetuj",
+    "save_local": "Ustawienia zapisywane są w przeglądarce po naciśnięciu przycisku \"OK\"",
+    "start_controlled": "Rozpocznij sesję kontrolowaną"
+  },
+  "controller": {
+    "category": "@:settings.category",
+    "word": "@:settings.word",
+    "unknown": "Nieznane",
+    "reward": "Nagroda",
+    "spin": "Zakręć",
+    "round": "Runda",
+    "current_round": "Obecna runda: {n}",
+    "next_round": "Następna runda",
+    "reveal": "Odkryj hasło",
+    "correct": "Prawidłowa odpowiedź",
+    "scores": "Wyniki",
+    "id": "ID",
+    "team_name": "Nazwa drużyny",
+    "team": "@:game.team",
+    "round_n": "@:controller.round {n}",
+    "sum": "Suma"
+  }
+}

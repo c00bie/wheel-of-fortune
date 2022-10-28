@@ -1,0 +1,59 @@
+{
+  "charset": "ABCDEFGHIJKLMNOPQRSTUVWXYZ",
+  "vowels": "AEIOU",
+  "ui": {
+    "wheel": "Wheel",
+    "word": "Word",
+    "ok": "OK",
+    "cancel": "Cancel",
+    "no-words": "Word list is empty. Go to settings and add some to start the game"
+  },
+  "game": {
+    "team": "Team {n}",
+    "bankrupt": "Bankrupt",
+    "category": "Category: {category}"
+  },
+  "settings": {
+    "header": "Settings",
+    "teams": "Teams",
+    "name": "Name",
+    "words": "Words",
+    "word": "Word",
+    "category": "Category",
+    "wheel_values": "Wheel values",
+    "value": "Value",
+    "is_bankrupt": "Bankrupt",
+    "spin_time": "Wheel spin time (ms)",
+    "misc": "Miscellaneous settings",
+    "buy_vowels": "Buy vowels",
+    "vowel_price": "Vowel price",
+    "bakrupt_per_round": "Bankrupt for current round only",
+    "answer_reward": "Correct answer reward",
+    "use_random_org": "Use random.org as random number generator",
+    "save_load": "Save/Load",
+    "save_game": "Save current game",
+    "save_settings": "Save settings",
+    "load": "Load",
+    "reset": "Reset",
+    "save_local": "Settings are saved locally in your browser when you click 'OK",
+    "start_controlled": "Start controlled session"
+  },
+  "controller": {
+    "category": "@:settings.category",
+    "word": "@:settings.word",
+    "unknown": "Unknown",
+    "reward": "Reward",
+    "spin": "Spin",
+    "round": "Round",
+    "current_round": "Current round: {n}",
+    "next_round": "Next round",
+    "reveal": "Reveal word",
+    "correct": "Correct answer",
+    "scores": "Scores",
+    "id": "ID",
+    "team_name": "Team name",
+    "team": "@:game.team",
+    "round_n": "@:controller.round {n}",
+    "sum": "Sum"
+  }
+}
