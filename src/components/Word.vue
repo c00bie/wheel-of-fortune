@@ -144,17 +144,17 @@ updateControlled();
                 :color="l.vowel && store.settings.buyVowels ? 'focus' : 'white'">
                 <va-card-content>{{ l.letter }}</va-card-content>
             </va-card>
-            <va-card @click="getWord()" gradient>
+            <va-card @click="getWord()" gradient title="Następna runda">
                 <va-card-content>
                     <va-icon style="margin-left: -75%" name="refresh"></va-icon>
                 </va-card-content>
             </va-card>
-            <va-card @click="show()" gradient>
+            <va-card @click="show()" gradient title="Odkryj hasło">
                 <va-card-content>
                     <va-icon style="margin-left: -75%" name="visibility"></va-icon>
                 </va-card-content>
             </va-card>
-            <va-card @click="show(true)" gradient>
+            <va-card @click="show(true)" gradient title="Poprawna odpowiedź">
                 <va-card-content>
                     <va-icon style="margin-left: -75%" name="add"></va-icon>
                 </va-card-content>
